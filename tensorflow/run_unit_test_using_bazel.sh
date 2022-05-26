@@ -32,7 +32,7 @@ options="$options --cache_test_results=no"
 options="$options --flaky_test_attempts=1"
 options="$options --test_size_filters=small,medium,large"
 # options="$options --runs_per_test=$TF_TESTS_PER_GPU"
-# options="$options --test_output="
+# options="$options --test_output=streamed"
 
 # options="$options --define=no_tensorflow_py_deps=true"
 
